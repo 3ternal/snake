@@ -1,0 +1,33 @@
+.content {
+  margin: 50px auto;
+}
+
+.cell {
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  background-color: black;
+  display: inline-block;
+}
+
+.snake, .food {
+  width: 15px;
+  height: 15px;
+  z-index: 2;
+}
+
+.snake {
+  background-color: green;
+}
+
+.food {
+  background-color: red;
+}
+
+#continue {
+  width: 40%;
+  height: 30px;
+  margin: auto;
+  display: block;
+}
