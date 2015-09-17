@@ -2,6 +2,15 @@
   margin: 50px auto;
 }
 
+h2 {
+  font-family: Open Sans;
+  text-align: center;
+}
+
+#bonus {
+  color: red;
+}
+
 .cell {
   width: 15px;
   height: 15px;
